@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Home</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,10 +11,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/95dcb5360a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="bg-ice">
     <header>
-      <nav class="navbar navbar-dark bg-navi">
+      <nav class="navbar navbar-dark bg-aqua">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -35,46 +39,96 @@
         id="navbarToggleExternalContent"
         data-bs-theme="dark"
       >
-        <div class="bg-pale d-flex flex-md-row">
+        <div class="bg-pale d-flex flex-column flex-sm-row">
           <a
             href="index.html"
             target=""
-            class="btn p-4 fw-bold bg-pale text-navi fs-5 rad-0 brdr-none button-after button-hover button-active"
+            class="btn p-4 fw-bold bg-pale text-navi fs-5 rounded-0 border-0 button-hover button-active"
             role="button"
             >Home</a
           >
           <a
             href="curriculumvitae.html"
             target=""
-            class="btn p-4 fw-bold bg-pale text-navi fs-5 rad-0 brdr-none button-after button-hover button-active"
+            class="btn p-4 fw-bold bg-pale text-navi fs-5 rounded-0 border-0 button-hover button-active"
             role="button"
             >CV</a
           >
           <a
             href="ervaring.html"
             target=""
-            class="btn p-4 fw-bold bg-pale text-navi fs-5 rad-0 brdr-none button-after button-hover button-active"
+            class="btn p-4 fw-bold bg-pale text-navi fs-5 rounded-0 border-0 button-hover button-active"
             role="button"
             >Ervaring</a
           >
           <a
             href="interesses.html"
             target=""
-            class="btn p-4 fw-bold bg-pale text-navi fs-5 rad-0 brdr-none button-after button-hover button-active"
+            class="btn p-4 fw-bold bg-pale text-navi fs-5 rounded-0 border-0 button-hover button-active"
             role="button"
             >Interesses</a
           >
           <a
             href="contact.html"
             target=""
-            class="btn p-4 fw-bold bg-pale text-navi fs-5 rad-0 brdr-none button-after button-hover button-active"
+            class="btn p-4 fw-bold bg-pale text-navi fs-5 rounded-0 border-0 button-hover button-active"
             role="button"
             >Contact</a
           >
         </div>
       </div>
     </header>
-    <h1>Hello, world!</h1>
+    <main class="container">
+      <div class="row">
+        <div class="col my-3">
+          <img
+            class="img-fluid rounded-5"
+            src="IMG/Portrait.png"
+            alt="portrait"
+          />
+        </div>
+        <div class="col my-3 fs-4 align-content-center">
+          <p>
+            Mijn naam is Nic Timmermans.&nbspIk ben 27 en ik volg een graduaat
+            opleiding bij Thomas More.&nbspIk ben heel geïnteresseerd in alles
+            wat te maken heeft met verhaal.&nbspAls programmeur heb ik ervaring
+            in de XR-sector.
+          </p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-3">
+        <div class="col text-center">
+          <button
+            type="button"
+            class="start-button btn mb-3 p-4 fw-bold bg-aqua text-sky border-navi rounded-3 border-5 button-hover button-active"
+            onclick="location.href='index.html'"
+          >
+            <p>Curriculum Vitae</p>
+            <i class="fa-solid fa-address-card icon-size-l my-3"></i>
+          </button>
+        </div>
+        <div class="col text-center">
+          <button
+            type="button"
+            class="start-button btn mb-3 p-4 fw-bold bg-aqua text-sky border-navi rounded-3 border-5 button-hover button-active"
+            onclick="location.href='index.html'"
+          >
+            <p>Ervaring</p>
+            <i class="fa-solid fa-briefcase icon-size-l my-3"></i>
+          </button>
+        </div>
+        <div class="col text-center">
+          <button
+            type="button"
+            class="start-button btn mb-3 p-4 fw-bold bg-aqua text-sky border-navi rounded-3 border-5 button-hover button-active"
+            onclick="location.href='index.html'"
+          >
+            <p>Curriculum Vitae</p>
+            <i class="fa-solid fa-chess icon-size-l my-3"></i>
+          </button>
+        </div>
+      </div>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
