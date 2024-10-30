@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/95dcb5360a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header><h1>Contact</h1></header>
+    <nav>
+      <a href="index.html" target="">Home</a>
+      <a href="curriculumvitae.html" target="">CV</a>
+      <a href="ervaring.html" target="">Ervaring</a>
+      <a href="interesses.html" target="">Interesses</a>
+      <a href="contact.html" target="">Contact</a>
+    </nav>
+    <div class="contact-container text-white">
+      <div class="contact-profile">
+        <h3>Nic Timmermans</h3>
+        <h4>mail.email@email.mail</h4>
+        <h4><a href="#">Mijn linkedin</a></h4>
+        <h4>+32 xxx xx xx xx</h4>
+      </div>
+      <div class="contact-form">
+        <form
+          action="https://tm-statweb.be/forms.php"
+          method="post"
+          id="formId"
+        >
+          <div class="contact-form-pair">
+            <label for="nameId">Naam:</label>
+            <input type="text" id="nameId" name="name" />
+          </div>
+          <div class="contact-form-pair">
+            <label for="emailId">E-mailadress</label>
+            <input
+              type="email"
+              id="emailId"
+              name="e-mailadress"
+              placeholder="mail@thomasmore.be"
+            />
+          </div>
+          <div class="contact-form-pair">
+            <label for="subjectId">Onderwerp</label>
+            <input type="text" id="subjectId" name="onderwerp" maxlength="50" />
+          </div>
+          <div class="contact-form-pair contact-form-textarea">
+            <label for="contentId">Inhoud</label>
+            <textarea name="inhoud" id="contentId"></textarea>
+          </div>
+          <div>
+            <input
+              class="submitButton contact-submit-button"
+              type="submit"
+              value="Versturen"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

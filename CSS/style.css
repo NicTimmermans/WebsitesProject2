@@ -1,0 +1,75 @@
+:root{
+    --ice: #b0f7fa;
+    --pale: #71C8FF;
+    --sky: #00ddff;
+    --aqua: #0093ee;
+    --navi: #0176be;
+    --lime: #00ffc8;
+    --moss: #02aa69;
+}
+
+/* .text-white{
+    color: white !important;
+}
+.text-black{
+    color: black !important;
+} */
+.bg-ice{
+    background-color: var(--ice) !important;
+  }
+  .bg-pale{
+    background-color: var(--pale) !important;
+  }
+  .bg-sky{
+    background-color: var(--sky) !important;
+  }
+  .bg-aqua{
+    background-color: var(--aqua) !important;
+  }
+  .bg-navi{
+    background-color: var(--navi) !important;
+  }
+  .bg-lime{
+    background-color: var(--lime) !important;
+  }
+  .bg-moss{
+      background-color: var(--moss) !important;
+  }
+.text-ice{
+    color: var(--ice) !important;
+}
+.text-pale{
+    color: var(--pale) !important;
+}
+.text-sky{
+    color: var(--sky) !important;
+}
+.text-aqua{
+    color: var(--aqua) !important;
+}
+.text-navi{
+    color: var(--navi) !important;
+}
+.text-lime{
+    color: var(--lime) !important;
+}
+.text-moss{
+    color: var(--moss) !important;
+}
+
+.rad-0{
+    border-radius: 0 !important;
+}
+.brdr-none{
+    border: none !important;
+}
+.button-hover:hover{
+    background-color: var(--lime) !important;
+    color: var(--moss) !important;
+    border: none !important;
+  }
+.button-active:active{
+    background-color: var(--lime) !important;
+    color: var(--moss) !important;
+    border: none !important;
+  }
