@@ -110,3 +110,6 @@
     background-color: var(--pale) !important;
     color: white !important;
 }
+.cv-section{
+    height: 100vh !important;
+}
