@@ -82,12 +82,12 @@
     background-color: var(--lime) !important;
     color: var(--moss) !important;
     border-color: var(--moss) !important;
-  }
+}
 .button-active:active{
     background-color: var(--lime) !important;
     color: var(--moss) !important;
     border-color: var(--moss) !important;
-  }
+}
 
 .icon-size-l{
     font-size: 6ch !important;
@@ -96,4 +96,17 @@
 .start-button{
     font-size: 30px !important;
     width: 300px !important;
+}
+.table-mythology{
+    border: solid 5px var(--navi) !important;
+}
+.table-mythology tr th{
+    border: solid 5px var(--navi) !important;
+    color: white !important;
+    background-color: var(--sky) !important;
+}
+.table-mythology tr td{
+    border: solid 5px var(--navi) !important;
+    background-color: var(--pale) !important;
+    color: white !important;
 }
