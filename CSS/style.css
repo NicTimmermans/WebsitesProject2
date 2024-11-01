@@ -110,6 +110,7 @@
     background-color: var(--pale) !important;
     color: white !important;
 }
-.cv-section{
-    height: 100vh !important;
-}
+.contact-form-textarea{
+    min-height: 20vh !important;
+    max-height: 50vh !important;
+  }
